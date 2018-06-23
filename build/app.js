@@ -1,5 +1,11 @@
 /**
  * /app.js
  */
+import angular from 'angular';
 
-let app = angular.module('RandomApp', []); // eslint-disable-line
+import userController from './userController';
+import userFactory from './userFactory';
+
+angular.module('RandomApp', [])
+  .factory('userFactory', userFactory)
+  .controller('userController', userController);
