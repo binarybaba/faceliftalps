@@ -1,0 +1,9 @@
+// .eslintrc.json
+{
+  "extends": [
+    "airbnb/legacy"
+  ],
+  "env": {
+    "browser": true
+  }
+}

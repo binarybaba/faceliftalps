@@ -6,8 +6,15 @@
   "author": "Amin Mohamed Ajani <amin.ajani17@gmail.com>",
   "license": "MIT",
   "private": false,
+  "scripts": {
+    "lint": "./node_modules/.bin/eslint *.js"
+  },
   "dependencies": {
     "angular": "^1.7.2",
     "jquery": "^3.3.1"
+  },
+  "devDependencies": {
+    "eslint": "4.19.1",
+    "eslint-config-recommended": "^3.0.0"
   }
 }
