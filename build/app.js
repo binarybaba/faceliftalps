@@ -5,5 +5,5 @@ import userController from './userController';
 import userFactory from './userFactory';
 
 angular.module('RandomApp', [])
-  .factory('userFactory', userFactory)
-  .controller('userController', userController);
+    .factory('userFactory', userFactory)
+    .controller('userController', userController);
