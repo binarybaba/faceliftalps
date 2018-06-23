@@ -1,4 +1,4 @@
-// /userController.js
+// /build/userController.js
 
 /**
  * Controls the user

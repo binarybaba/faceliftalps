@@ -1,6 +1,4 @@
-/**
- * /app.js
- */
+// /build/app.js
 import angular from 'angular';
 
 import userController from './userController';

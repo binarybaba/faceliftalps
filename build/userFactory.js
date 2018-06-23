@@ -1,4 +1,4 @@
-// /userFactory.js
+// /build/userFactory.js
 /**
  * A User factory which gets the user list
  * @param $http
