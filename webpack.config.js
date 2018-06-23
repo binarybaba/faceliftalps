@@ -7,5 +7,11 @@ module.exports = {
     output: {
         path: path.join(__dirname, 'dist'),
         filename: 'bundle.js'
+    },
+    devServer: {
+        publicPath: '/dist/',
+        filename: 'bundle.js',
+        historyApiFallback: true,
+        overlay: true
     }
 };
