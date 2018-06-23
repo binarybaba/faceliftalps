@@ -1,0 +1,13 @@
+{
+  "name": "faceliftalps",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/binarybaba/faceliftalps.git",
+  "author": "Amin Mohamed Ajani <amin.ajani17@gmail.com>",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "angular": "^1.7.2",
+    "jquery": "^3.3.1"
+  }
+}
