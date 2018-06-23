@@ -1,9 +1,12 @@
 // .eslintrc.json
 {
   "extends": [
-    "eslint:recommended"
+    "airbnb/legacy"
   ],
   "env": {
     "browser": true
+  },
+  "rules": {
+    "indent": ["error", 4]
   }
 }
