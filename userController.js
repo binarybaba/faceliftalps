@@ -1,10 +1,20 @@
 // /userController.js
-var angular = window.angular;
-var app = angular.module('RandomApp');
-app.controller('userController', function userController($scope, UserF) {
+
+(function(){
+  var angular = window.angular;
+  var app = angular.module('RandomApp');
+
+  /**
+   * Controls the user
+   * @param $scope
+   * @param UserF
+   */
+  let userController = ($scope, UserF) => {
     $scope.users = [];
-    UserF.getUsers()
-        .then(function storeUsers(res) {
-            $scope.users = res.data.data;
-        });
-});
+    UserF.getUsers().then(res => $scope.users = res.data.data);
+  };
+  userController.$inject = ['$scope', 'UserF'];
+
+  app.controller('userController', userController);
+
+})();
