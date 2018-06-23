@@ -1,7 +1,8 @@
 var path = require('path');
 
 module.exports = {
-    mode: 'development',
+    mode: 'production',
+    devtool: 'cheap-eval-source-map',
     context: __dirname,
     entry: './build/app.js',
     output: {
