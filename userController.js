@@ -13,7 +13,7 @@
     $scope.users = [];
     UserF.getUsers().then(res => $scope.users = res.data.data);
   };
-  userController.$inject = ['$scope', 'UserF'];
+  userController.$inject = ['$scope', 'UserFactory'];
 
   app.controller('userController', userController);
 
